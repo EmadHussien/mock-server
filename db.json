@@ -1,9 +1,411 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+    "Users":[
+        {
+            "id": 1 ,
+            "email": "emad@gmail.com",
+            "password": "159753654",
+            "fname": "Emad",
+            "lname": "Hussien",
+            "phoneNumber": "01116446214",
+            "country": "Egypt",
+            "city": "Cairo",
+            "District": "Eldaher"
+        }
+        ,
+        {
+            "id": 2 ,
+            "email": "mohamed@gmail.com",
+            "password": "159753654",
+            "fname": "Mohamed",
+            "lname": "Amr",
+            "phoneNumber": "01116556214",
+            "country": "Egypt",
+            "city": "Cairo",
+            "District": "Down Town"
+        }
+        ,
+        {
+            "id": 3 ,
+            "email": "Ali@gmail.com",
+            "password": "159753654",
+            "fname": "Ali",
+            "lname": "Salah",
+            "phoneNumber": "01116336214",
+            "country": "Egypt",
+            "city": "Luxor",
+            "District": "Abdo Basha"
+        }
+        ,
+        {
+            "id": 4 ,
+            "email": "Masry@gmail.com",
+            "password": "159753654",
+            "fname": "Mahmoud",
+            "lname": "Elmasry",
+            "phoneNumber": "01116246214",
+            "country": "Egypt",
+            "city": "Portsaid",
+            "District": "Qesm ElHadaiq"
+        }
+        ,
+        {
+            "id": 5 ,
+            "email": "Salma@gmail.com",
+            "password": "159753654",
+            "fname": "Salma",
+            "lname": "Hussien",
+            "phoneNumber": "01116256214",
+            "country": "Egypt",
+            "city": "Alexandria",
+            "District": "Abu Qer"
+        }
+        
+    ]
+    ,
+    
+    "Pets":[
+        {
+            "id": 1 ,
+            "petImage": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/34375455/1/?bust=1454434343&width=1080",
+            "petName": "Trickle",
+            "petAge" : "Young",
+            "petGender" : "Female",
+            "petSize" : "Small",
+            "pottyTrained" : "Yes",
+            "spayed": true,
+            "Vaccinated": true,
+            "petBreed": " Domestic Short Hair",
+            "petType": "Cat",
+            "medicalNeeds": "No",
+            "uploadDate": "27-12-2023",
+            "UserId": 1
+        }
+        ,
+        {
+            "id": 2 ,
+            "petImage": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/59488090/2/?bust=1673959471&width=1080",
+            "petName": "Smitty",
+            "petAge" : "Young",
+            "petGender" : "Female",
+            "petSize" : "Small",
+            "pottyTrained" : "Yes",
+            "spayed": true,
+            "Vaccinated": true,
+            "petBreed": " Domestic Short Hair",
+            "petType": "Cat",
+            "medicalNeeds": "No",
+            "uploadDate": "27-12-2023",
+            "UserId": 1
+        }
+        ,
+        {
+            "id": 3 ,
+            "petImage": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54178702/1/?bust=1641919468&width=1080",
+            "petName": "Kookie",
+            "petAge" : "Young",
+            "petGender" : "Female",
+            "petSize" : "Small",
+            "pottyTrained" : "Yes",
+            "spayed": true,
+            "Vaccinated": true,
+            "petBreed": " Domestic Short Hair",
+            "petType": "Cat",
+            "medicalNeeds": "No",
+            "uploadDate": "27-12-2023",
+            "UserId": 1
+        }
+        ,
+        {
+            "id": 4 ,
+            "petImage": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/58628648/1/?bust=1666447599&width=1080",
+            "petName": "Cooper",
+            "petAge" : "Young",
+            "petGender" : "Female",
+            "petSize" : "Small",
+            "pottyTrained" : "Yes",
+            "spayed": true,
+            "Vaccinated": true,
+            "petBreed": " Domestic Short Hair",
+            "petType": "Cat",
+            "medicalNeeds": "No",
+            "uploadDate": "27-12-2023",
+            "UserId": 1
+        }
+        ,
+        {
+            "id": 5 ,
+            "petImage": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/55566960/1/?bust=1652314550&width=1080",
+            "petName": "Elli",
+            "petAge" : "Young",
+            "petGender" : "Female",
+            "petSize" : "Small",
+            "pottyTrained" : "Yes",
+            "spayed": true,
+            "Vaccinated": true,
+            "petBreed": " Domestic Short Hair",
+            "petType": "Cat",
+            "medicalNeeds": "No",
+            "uploadDate": "27-12-2023",
+            "UserId": 2
+        }
+        ,
+        
+        {
+            "id": 6 ,
+            "petImage": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/51692804/1/?bust=1622147372&width=1080",
+            "petName": "Fifi",
+            "petAge" : "Young",
+            "petGender" : "Female",
+            "petSize" : "Small",
+            "pottyTrained" : "Yes",
+            "spayed": true,
+            "Vaccinated": true,
+            "petBreed": " Domestic Short Hair",
+            "petType": "Cat",
+            "medicalNeeds": "No",
+            "uploadDate": "27-12-2023",
+            "UserId": 2
+        }
+        ,
+        {
+            "id": 7 ,
+            "petImage": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/45508677/1/?bust=1565033751&width=1080",
+            "petName": "Frazzle",
+            "petAge" : "Young",
+            "petGender" : "Female",
+            "petSize" : "Small",
+            "pottyTrained" : "Yes",
+            "spayed": true,
+            "Vaccinated": true,
+            "petBreed": " Domestic Short Hair",
+            "petType": "Cat",
+            "medicalNeeds": "No",
+            "uploadDate": "27-12-2023",
+            "UserId": 2
+        }
+        ,
+        {
+            "id": 8 ,
+            "petImage": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54898166/1/?bust=1646712095&width=1080",
+            "petName": "Collin",
+            "petAge" : "Young",
+            "petGender" : "Female",
+            "petSize" : "Small",
+            "pottyTrained" : "Yes",
+            "spayed": true,
+            "Vaccinated": true,
+            "petBreed": " Domestic Short Hair",
+            "petType": "Cat",
+            "medicalNeeds": "No",
+            "uploadDate": "27-12-2023",
+            "UserId": 2
+        }
+        ,
+        {
+            "id": 9 ,
+            "petImage": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/59488136/1/?bust=1673961686&width=1080",
+            "petName": "Claus",
+            "petAge" : "Young",
+            "petGender" : "Female",
+            "petSize" : "Small",
+            "pottyTrained" : "Yes",
+            "spayed": true,
+            "Vaccinated": true,
+            "petBreed": " Domestic Short Hair",
+            "petType": "Cat",
+            "medicalNeeds": "No",
+            "uploadDate": "27-12-2023",
+            "UserId": 3
+        }
+        ,
+        {
+            "id": 10 ,
+            "petImage": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/59037980/1/?bust=1670037474&width=1080",
+            "petName": "Cali",
+            "petAge" : "Young",
+            "petGender" : "Female",
+            "petSize" : "Small",
+            "pottyTrained" : "Yes",
+            "spayed": true,
+            "Vaccinated": true,
+            "petBreed": " Domestic Short Hair",
+            "petType": "Cat",
+            "medicalNeeds": "No",
+            "uploadDate": "27-12-2023",
+            "UserId": 3
+        }
+        ,
+        {
+            "id": 11 ,
+            "petImage": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/59488278/1/?bust=1673965242&width=1080",
+            "petName": "Boo",
+            "petAge" : "Young",
+            "petGender" : "Female",
+            "petSize" : "Small",
+            "pottyTrained" : "Yes",
+            "spayed": true,
+            "Vaccinated": true,
+            "petBreed": " Domestic Short Hair",
+            "petType": "Cat",
+            "medicalNeeds": "No",
+            "uploadDate": "27-12-2023",
+            "UserId": 3
+        }
+        ,
+        {
+            "id": 12 ,
+            "petImage": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/45515323/1/?bust=1565091152&width=1080",
+            "petName": "Bronte",
+            "petAge" : "Young",
+            "petGender" : "Female",
+            "petSize" : "Small",
+            "pottyTrained" : "Yes",
+            "spayed": true,
+            "Vaccinated": true,
+            "petBreed": " Domestic Short Hair",
+            "petType": "Cat",
+            "medicalNeeds": "No",
+            "uploadDate": "27-12-2023",
+            "UserId": 3
+        }
+        ,
+        {
+            "id": 13 ,
+            "petImage": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/59423057/2/?bust=1673529282&width=1080",
+            "petName": "Cinder",
+            "petAge" : "Young",
+            "petGender" : "Female",
+            "petSize" : "Small",
+            "pottyTrained" : "Yes",
+            "spayed": true,
+            "Vaccinated": true,
+            "petBreed": " Domestic Short Hair",
+            "petType": "Cat",
+            "medicalNeeds": "No",
+            "uploadDate": "27-12-2023",
+            "UserId": 4
+        }
+        ,
+        {
+            "id": 14 ,
+            "petImage": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/58994247/1/?bust=1669735826&width=1080",
+            "petName": "Gilmore",
+            "petAge" : "Young",
+            "petGender" : "Female",
+            "petSize" : "Small",
+            "pottyTrained" : "Yes",
+            "spayed": true,
+            "Vaccinated": true,
+            "petBreed": " Domestic Short Hair",
+            "petType": "Cat",
+            "medicalNeeds": "No",
+            "uploadDate": "27-12-2023",
+            "UserId": 4
+        }
+        ,
+        {
+            "id": 15 ,
+            "petImage": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/55246145/1/?bust=1649428323&width=1080",
+            "petName": "Cali",
+            "petAge" : "Young",
+            "petGender" : "Female",
+            "petSize" : "Small",
+            "pottyTrained" : "Yes",
+            "spayed": true,
+            "Vaccinated": true,
+            "petBreed": " Domestic Short Hair",
+            "petType": "Cat",
+            "medicalNeeds": "No",
+            "uploadDate": "27-12-2023",
+            "UserId": 4
+        }
+        ,
+        {
+            "id": 16 ,
+            "petImage": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/59488103/1/?bust=1673959895&width=1080",
+            "petName": "Kazu",
+            "petAge" : "Young",
+            "petGender" : "Female",
+            "petSize" : "Small",
+            "pottyTrained" : "Yes",
+            "spayed": true,
+            "Vaccinated": true,
+            "petBreed": " Domestic Short Hair",
+            "petType": "Cat",
+            "medicalNeeds": "No",
+            "uploadDate": "27-12-2023",
+            "UserId": 4
+        }
+        ,
+        {
+            "id": 17 ,
+            "petImage": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60000567/1/?bust=1676751637&width=1080",
+            "petName": "Oscar",
+            "petAge" : "Young",
+            "petGender" : "Female",
+            "petSize" : "Small",
+            "pottyTrained" : "Yes",
+            "spayed": true,
+            "Vaccinated": true,
+            "petBreed": " Domestic Short Hair",
+            "petType": "Dog",
+            "medicalNeeds": "No",
+            "uploadDate": "27-12-2023",
+            "UserId": 5
+        }
+        ,
+        {
+            "id": 18 ,
+            "petImage": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60035570/1/?bust=1677027024&width=1080",
+            "petName": "Tori",
+            "petAge" : "Young",
+            "petGender" : "Female",
+            "petSize" : "Small",
+            "pottyTrained" : "Yes",
+            "spayed": true,
+            "Vaccinated": true,
+            "petBreed": " Domestic Short Hair",
+            "petType": "Dog",
+            "medicalNeeds": "No",
+            "uploadDate": "27-12-2023",
+            "UserId": 5
+        }
+        ,
+        {
+            "id": 19 ,
+            "petImage": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/59909130/1/?bust=1676071779&width=1080",
+            "petName": "Rosie",
+            "petAge" : "Young",
+            "petGender" : "Female",
+            "petSize" : "Small",
+            "pottyTrained" : "Yes",
+            "spayed": true,
+            "Vaccinated": true,
+            "petBreed": " Domestic Short Hair",
+            "petType": "Dog",
+            "medicalNeeds": "No",
+            "uploadDate": "27-12-2023",
+            "UserId": 5
+        }
+        ,
+        {
+            "id": 20 ,
+            "petImage": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/59268384/1/?bust=1672161727&width=1080",
+            "petName": "Chico",
+            "petAge" : "Young",
+            "petGender" : "Female",
+            "petSize" : "Small",
+            "pottyTrained" : "Yes",
+            "spayed": true,
+            "Vaccinated": true,
+            "petBreed": " Domestic Short Hair",
+            "petType": "Dog",
+            "medicalNeeds": "No",
+            "uploadDate": "27-12-2023",
+            "UserId": 5
+        }
+       
+        
+    ] 
 }
+
