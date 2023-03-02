@@ -59,6 +59,18 @@
             "city": "Alexandria",
             "District": "Abu Qer"
         }
+        ,
+        {
+            "id": 6,
+            "email": "helen@gmail.com",
+            "password": "159753654",
+            "fname": "Helen",
+            "lname": "Akram",
+            "phoneNumber": "01116446214",
+            "country": "Egypt",
+            "city": "Cairo",
+            "District": "6 october"
+          }
         
     ]
     ,
