@@ -6,11 +6,8 @@
             "password": "159753654",
             "fname": "Emad",
             "lname": "Hussien",
-            "phoneNumber": "01116446214",
-            "country": "Egypt",
-            "city": "Cairo",
-            "District": "Eldaher"
-        }
+            "phoneNumber": "01116446214"
+           }
         ,
         {
             "id": 2 ,
@@ -18,10 +15,8 @@
             "password": "159753654",
             "fname": "Mohamed",
             "lname": "Amr",
-            "phoneNumber": "01116556214",
-            "country": "Egypt",
-            "city": "Cairo",
-            "District": "Down Town"
+            "phoneNumber": "01116556214"
+            
         }
         ,
         {
@@ -30,10 +25,8 @@
             "password": "159753654",
             "fname": "Ali",
             "lname": "Salah",
-            "phoneNumber": "01116336214",
-            "country": "Egypt",
-            "city": "Luxor",
-            "District": "Abdo Basha"
+            "phoneNumber": "01116336214"
+            
         }
         ,
         {
@@ -42,10 +35,7 @@
             "password": "159753654",
             "fname": "Mahmoud",
             "lname": "Elmasry",
-            "phoneNumber": "01116246214",
-            "country": "Egypt",
-            "city": "Portsaid",
-            "District": "Qesm ElHadaiq"
+            "phoneNumber": "01116246214"
         }
         ,
         {
@@ -54,10 +44,8 @@
             "password": "159753654",
             "fname": "Salma",
             "lname": "Hussien",
-            "phoneNumber": "01116256214",
-            "country": "Egypt",
-            "city": "Alexandria",
-            "District": "Abu Qer"
+            "phoneNumber": "01116256214"
+          
         }
         ,
         {
@@ -66,10 +54,8 @@
             "password": "159753654",
             "fname": "Helen",
             "lname": "Akram",
-            "phoneNumber": "01116446214",
-            "country": "Egypt",
-            "city": "Cairo",
-            "District": "6 october"
+            "phoneNumber": "01116446214"
+          
           }
         
     ]
@@ -90,6 +76,9 @@
             "petType": "Cat",
             "medicalNeeds": "No",
             "uploadDate": "27-12-2023",
+             "country": "Egypt",
+            "city": "Cairo",
+            "District": "Eldaher",
             "UserId": 1
         }
         ,
@@ -107,6 +96,9 @@
             "petType": "Cat",
             "medicalNeeds": "No",
             "uploadDate": "27-12-2023",
+             "country": "Egypt",
+            "city": "Cairo",
+            "District": "Eldaher",
             "UserId": 1
         }
         ,
@@ -124,6 +116,9 @@
             "petType": "Cat",
             "medicalNeeds": "No",
             "uploadDate": "27-12-2023",
+             "country": "Egypt",
+            "city": "Cairo",
+            "District": "Eldaher",
             "UserId": 1
         }
         ,
@@ -141,6 +136,9 @@
             "petType": "Cat",
             "medicalNeeds": "No",
             "uploadDate": "27-12-2023",
+             "country": "Egypt",
+            "city": "Cairo",
+            "District": "Eldaher",
             "UserId": 1
         }
         ,
@@ -158,6 +156,9 @@
             "petType": "Cat",
             "medicalNeeds": "No",
             "uploadDate": "27-12-2023",
+            "country": "Egypt",
+            "city": "Cairo",
+            "District": "Down Town",
             "UserId": 2
         }
         ,
@@ -176,6 +177,9 @@
             "petType": "Cat",
             "medicalNeeds": "No",
             "uploadDate": "27-12-2023",
+            "country": "Egypt",
+            "city": "Cairo",
+            "District": "Down Town",
             "UserId": 2
         }
         ,
@@ -193,6 +197,9 @@
             "petType": "Cat",
             "medicalNeeds": "No",
             "uploadDate": "27-12-2023",
+            "country": "Egypt",
+            "city": "Cairo",
+            "District": "Down Town",
             "UserId": 2
         }
         ,
@@ -210,6 +217,9 @@
             "petType": "Cat",
             "medicalNeeds": "No",
             "uploadDate": "27-12-2023",
+            "country": "Egypt",
+            "city": "Cairo",
+            "District": "Down Town",
             "UserId": 2
         }
         ,
@@ -227,6 +237,9 @@
             "petType": "Cat",
             "medicalNeeds": "No",
             "uploadDate": "27-12-2023",
+            "country": "Egypt",
+            "city": "Luxor",
+            "District": "Abdo Basha",
             "UserId": 3
         }
         ,
@@ -244,6 +257,9 @@
             "petType": "Cat",
             "medicalNeeds": "No",
             "uploadDate": "27-12-2023",
+            "country": "Egypt",
+            "city": "Luxor",
+            "District": "Abdo Basha",
             "UserId": 3
         }
         ,
@@ -261,6 +277,9 @@
             "petType": "Cat",
             "medicalNeeds": "No",
             "uploadDate": "27-12-2023",
+            "country": "Egypt",
+            "city": "Luxor",
+            "District": "Abdo Basha",
             "UserId": 3
         }
         ,
@@ -278,6 +297,9 @@
             "petType": "Cat",
             "medicalNeeds": "No",
             "uploadDate": "27-12-2023",
+            "country": "Egypt",
+            "city": "Luxor",
+            "District": "Abdo Basha",
             "UserId": 3
         }
         ,
@@ -295,6 +317,9 @@
             "petType": "Cat",
             "medicalNeeds": "No",
             "uploadDate": "27-12-2023",
+             "country": "Egypt",
+            "city": "Portsaid",
+            "District": "Qesm ElHadaiq",
             "UserId": 4
         }
         ,
@@ -312,6 +337,9 @@
             "petType": "Cat",
             "medicalNeeds": "No",
             "uploadDate": "27-12-2023",
+             "country": "Egypt",
+            "city": "Portsaid",
+            "District": "Qesm ElHadaiq",
             "UserId": 4
         }
         ,
@@ -329,6 +357,9 @@
             "petType": "Cat",
             "medicalNeeds": "No",
             "uploadDate": "27-12-2023",
+             "country": "Egypt",
+            "city": "Portsaid",
+            "District": "Qesm ElHadaiq",
             "UserId": 4
         }
         ,
@@ -346,6 +377,9 @@
             "petType": "Cat",
             "medicalNeeds": "No",
             "uploadDate": "27-12-2023",
+             "country": "Egypt",
+            "city": "Portsaid",
+            "District": "Qesm ElHadaiq",
             "UserId": 4
         }
         ,
@@ -363,6 +397,9 @@
             "petType": "Dog",
             "medicalNeeds": "No",
             "uploadDate": "27-12-2023",
+              "country": "Egypt",
+            "city": "Alexandria",
+            "District": "Abu Qer",
             "UserId": 5
         }
         ,
@@ -380,6 +417,9 @@
             "petType": "Dog",
             "medicalNeeds": "No",
             "uploadDate": "27-12-2023",
+              "country": "Egypt",
+            "city": "Alexandria",
+            "District": "Abu Qer",
             "UserId": 5
         }
         ,
@@ -397,6 +437,9 @@
             "petType": "Dog",
             "medicalNeeds": "No",
             "uploadDate": "27-12-2023",
+              "country": "Egypt",
+            "city": "Alexandria",
+            "District": "Abu Qer",
             "UserId": 5
         }
         ,
@@ -414,6 +457,9 @@
             "petType": "Dog",
             "medicalNeeds": "No",
             "uploadDate": "27-12-2023",
+              "country": "Egypt",
+            "city": "Alexandria",
+            "District": "Abu Qer",
             "UserId": 5
         }
        
